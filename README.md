@@ -1,3 +1,24 @@
+Answers to Questions 2 - 6
+
+2. List five significant features of React.
+   1. JSX - Javascript Syntax Extension
+   2. Virtual DOM
+   3. One-Way Data Binding
+   4. Debugging
+   5. Extensions
+3. List five major advantages of React.
+   1. It is easy to learn
+   2. It makes it easier to create dynamic applications
+   3. It has dedicated tools for easy debugging
+   4. Reusable components
+   5. Improved performance
+4. What is the name of the Software Engineer that created React? Jordan Walke. Also, which company owns React? Meta (formerly Facebook)
+5. What are the notable differences between HTML & JSX? Give at least 3 of them
+   1. In JSX, a single parent element (fragment) must be returned, or it won't compile. In HTML, on the other hand, you are free to do whatever you want as you don’t have to return a single parent element
+   2. While in HTML, the class attribute can be used on any HTML element, In JSX, the word class cannot be used to define HTML classes, since class is a reserved word in JavaScript, instead, use — className.
+   3. In HTML almost all tags have an opening and a closing tag except probably a few while in JSX, any element can be written as a self-closing tag, for example: <div/>
+6. Why can’t browsers read JSX? The browser does not understand JSX because it's not valid JavaScript code; there is no inherent implementation for the browser engines to read and understand it.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
